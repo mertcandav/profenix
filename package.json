@@ -2,6 +2,7 @@
     "name": "profenix",
     "displayName": "profenix",
     "description": "Dark theme for those who love darkness.",
+    "publisher": "mertcandav",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.49.0"
