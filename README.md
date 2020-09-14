@@ -9,4 +9,4 @@ Visual Studio Code dark theme for those who love darkness.
 + CSS<br>
     <br>
 ## Preview
-<img src="./preview.PNG">
+<img src="https://github.com/mertcandav/profenix/edit/master/preview.PNG">
