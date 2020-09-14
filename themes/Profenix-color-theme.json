@@ -2,7 +2,7 @@
 	"name": "Profenix",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#181818",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -15,8 +15,8 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"fontStyle": "",
+				"foreground": "#09b300"
 			}
 		},
 		{
