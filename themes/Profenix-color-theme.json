@@ -37,10 +37,15 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"Variables",
+				"variable.parameter",
+				"string constant.other.placeholder",
+				"meta.block variable.other",
+				"entity.other.attribute-name",
+				"constant"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#9de1fa"
 			}
 		},
 		{
@@ -63,34 +68,29 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Keyword, Operator, Misc",
 			"scope": [
-				"keyword",
+				"storage.modifier",
 				"storage.type",
-				"storage.modifier"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "Operator, Misc",
-			"scope": [
 				"keyword.control",
 				"constant.other.color",
 				//"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
+				//"meta.tag",
+				"keyword.other",
+				//"punctuation.definition.tag",
+				//"punctuation.separator.inheritance.php",
+				//"punctuation.definition.tag.html",
+				//"punctuation.definition.tag.begin.html",
+				//"punctuation.definition.tag.end.html",
+				//"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"constant.language",
+				"variable.language"
 			],
 			"settings": {
 				"foreground": "#ff7575"
+				//"foreground": "#2b8bff"
 			}
 		},
 		{
@@ -101,29 +101,21 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#6dad6c"
 			}
 		},
 		{
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
-				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"variable.function.constructor",
+				"entity.name.method"
 			],
 			"settings": {
 				"foreground": "#ffebab"
-			}
-		},
-		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#f07178"
 			}
 		},
 		{
@@ -140,13 +132,9 @@
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				"constant.character"
 			],
 			"settings": {
 				"foreground": "#9fc270"
@@ -158,21 +146,18 @@
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#db860f"
+				"foreground": "#e3a164"
 			}
 		},
 		{
 			"name": "Class, Support",
 			"scope": [
-				"entity.name",
-				"support.type",
-				"support.class",
+				"entity.name.method",
 				"support.orther.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
@@ -180,16 +165,24 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#9fc270"
 			}
 		},
 		{
 			"name": "Entity Types",
 			"scope": [
-				"support.type"
+				"support.other",
+				"support.type.property-name",
+				"entity.other.attribute-name",
+				"entity.name.type",
+				"support.constant",
+				"support.type",
+				"support.class",
+				"entity.name.class",
+				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#32e6a1"
 			}
 		},
 		{
@@ -218,16 +211,6 @@
 			}
 		},
 		{
-			"name": "Language methods",
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FF5370"
-			}
-		},
-		{
 			"name": "entity.name.method.js",
 			"scope": [
 				"entity.name.method.js"
@@ -245,15 +228,6 @@
 			],
 			"settings": {
 				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#C792EA"
 			}
 		},
 		{
