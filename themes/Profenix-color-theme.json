@@ -7,6 +7,7 @@
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"dropdown.background": "#1e1e1e",
+		"dropdown.border": "#bbbbbb",
 		"activityBar.background": "#1e1e1e",
 		"titleBar.activeBackground": "#1e1e1e",
 		"sideBar.background": "#1e1e1e",
@@ -20,6 +21,7 @@
 		"tab.hoverBackground": "#303030",
 		"editor.lineHighlightBorder": "#303030",
 		"scrollbar.shadow": "#000000",
+		"widget.shadow": "#000000"
 	},
 	"tokenColors": [
 		{
@@ -46,15 +48,6 @@
 			],
 			"settings": {
 				"foreground": "#9de1fa"
-			}
-		},
-		{
-			"name": "Colors",
-			"scope": [
-				"constant.other.color"
-			],
-			"settings": {
-				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -86,7 +79,10 @@
 				"keyword.other.template",
 				"keyword.other.substitution",
 				"constant.language",
-				"variable.language"
+				"variable.language",
+				"keyword.other.unit",
+				"keyword",
+				"support.type.sys-types"
 			],
 			"settings": {
 				"foreground": "#ff7575"
@@ -102,6 +98,16 @@
 			],
 			"settings": {
 				"foreground": "#6dad6c"
+			}
+		},
+		{
+			"name": "Colors",
+			"scope": [
+				"constant.other.color",
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		{
