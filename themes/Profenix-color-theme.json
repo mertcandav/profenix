@@ -64,7 +64,7 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
+				//"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -76,7 +76,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#ff7575"
 			}
 		},
 		{
