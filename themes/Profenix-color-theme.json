@@ -18,7 +18,8 @@
 		"tab.inactiveBackground": "#1e1e1e",
 		"tab.border": "#1e1e1e",
 		"tab.hoverBackground": "#303030",
-		"editor.lineHighlightBorder": "#303030"
+		"editor.lineHighlightBorder": "#303030",
+		"scrollbar.shadow": "#000000",
 	},
 	"tokenColors": [
 		{
