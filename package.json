@@ -1,0 +1,21 @@
+{
+    "name": "profenix",
+    "displayName": "profenix",
+    "description": "Dark theme for those who love darkness.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Profenix",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Profenix-color-theme.json"
+            }
+        ]
+    }
+}
