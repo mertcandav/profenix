@@ -21,7 +21,8 @@
 		"tab.hoverBackground": "#303030",
 		"editor.lineHighlightBorder": "#303030",
 		"scrollbar.shadow": "#000000",
-		"widget.shadow": "#000000"
+		"widget.shadow": "#000000",
+		"statusBar.background": "#1e1e1e"
 	},
 	"tokenColors": [
 		{
