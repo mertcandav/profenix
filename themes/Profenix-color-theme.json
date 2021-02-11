@@ -109,7 +109,7 @@
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#e67777"
 			}
 		},
 		{
@@ -123,7 +123,7 @@
 				"entity.name.method"
 			],
 			"settings": {
-				"foreground": "#cfcc6b"
+				"foreground": "#bebb64"
 			}
 		},
 		{
@@ -190,7 +190,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#32e6a1"
+				"foreground": "#38b577"
 			}
 		},
 		{
