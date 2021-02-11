@@ -2,27 +2,27 @@
 	"name": "Profenix",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#111111",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#17181a",
+		"editor.foreground": "#cccccc",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"dropdown.background": "#181818",
+		"dropdown.background": "#17181a",
 		"dropdown.border": "#bbbbbb",
-		"activityBar.background": "#181818",
-		"titleBar.activeBackground": "#181818",
-		"sideBar.background": "#181818",
-		"sideBarSectionHeader.background": "#181818",
-		"menu.background": "#181818",
-		"panel.background": "#181818",
-		"panel.border": "#1e1e1e",
-		"editorGroupHeader.tabsBackground": "#181818",
-		"tab.inactiveBackground": "#181818",
-		"tab.border": "#181818",
-		"tab.hoverBackground": "#303030",
-		"editor.lineHighlightBorder": "#303030",
+		"activityBar.background": "#17181a",
+		"titleBar.activeBackground": "#17181a",
+		"sideBar.background": "#17181a",
+		"sideBarSectionHeader.background": "#17181a",
+		"menu.background": "#17181a",
+		"panel.background": "#17181a",
+		"panel.border": "#17181a",
+		"editorGroupHeader.tabsBackground": "#17181a",
+		"tab.inactiveBackground": "#17181a",
+		"tab.border": "#17181a",
+		"tab.hoverBackground": "#1d1f21",
+		"editor.lineHighlightBorder": "#1d1f21",
 		"scrollbar.shadow": "#000000",
 		"widget.shadow": "#000000",
-		"statusBar.background": "#181818",
+		"statusBar.background": "#17181a",
 		"tab.activeBorderTop": "#007acc"
 	},
 	"tokenColors": [
@@ -34,7 +34,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#09b300"
+				"foreground": "#787878"
 			}
 		},
 		{
@@ -49,7 +49,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#9de1fa"
+				"foreground": "#619fba"
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#ff7575"
+				"foreground": "#e67777"
 				//"foreground": "#2b8bff"
 			}
 		},
@@ -123,7 +123,7 @@
 				"entity.name.method"
 			],
 			"settings": {
-				"foreground": "#ffebab"
+				"foreground": "#cfcc6b"
 			}
 		},
 		{
