@@ -71,7 +71,6 @@
 			"name": "Keyword, Operator, Misc",
 			"scope": [
 				"storage.modifier",
-				"storage.type",
 				"keyword.control",
 				"constant.other.color",
 				//"punctuation",
@@ -175,14 +174,14 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
 			],
 			"settings": {
 				"foreground": "#9fc270"
 			}
 		},
 		{
-			"name": "Entity Types",
+			"name": "Entity Types - CLASS",
 			"scope": [
 				"support.other",
 				"support.type.property-name",
@@ -192,7 +191,8 @@
 				"support.type",
 				"support.class",
 				"entity.name.class",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"storage.type"
 			],
 			"settings": {
 				"foreground": "#38b577"
