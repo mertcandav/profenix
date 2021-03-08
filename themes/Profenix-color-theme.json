@@ -20,15 +20,20 @@
 		"editorSuggestWidget.selectedBackground": "#27292c",
 		"editorGroupHeader.tabsBackground": "#17181a",
 		"tab.inactiveBackground": "#17181a",
-		"tab.border": "#17181a",
-		"tab.hoverBackground": "#27292c",
-		"editor.lineHighlightBorder": "#27292c",
-		"editor.selectionHighlightBackground": "#27292c",
+		"tab.border": "#35373b",
+		"tab.hoverBackground": "#35373b",
+		"editor.lineHighlightBorder": "#35373b",
+		"editor.lineHighlightBackground": "#141518",
+		"editor.selectionHighlightBackground": "#17181a",
+		"editor.selectionHighlightBorder": "#cccccc",
+		"editor.foldBackground": "#202631",
+		"editorBracketMatch.border": "#cccccc",
 		"editorCursor.foreground": "#cccccc",
 		"scrollbar.shadow": "#000000",
 		"widget.shadow": "#000000",
 		"statusBar.background": "#17181a",
-		"tab.activeBorderTop": "#007acc"
+		"tab.activeBorderTop": "#007acc",
+		"editorHoverWidget.background": "#17181a",
 	},
 	"tokenColors": [
 		{
@@ -72,10 +77,10 @@
 			"scope": [
 				"storage.modifier",
 				"keyword.control",
+				"keyword.other",
 				"constant.other.color",
 				//"punctuation",
 				//"meta.tag",
-				"keyword.other",
 				//"punctuation.definition.tag",
 				//"punctuation.separator.inheritance.php",
 				//"punctuation.definition.tag.html",
@@ -88,11 +93,22 @@
 				"variable.language",
 				"keyword.other.unit",
 				"keyword",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"constant.other.color",
+				"storage.type"
 			],
 			"settings": {
-				"foreground": "#e67777"
+				"foreground": "#df6176"
 				//"foreground": "#2b8bff"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#b07cd6",
 			}
 		},
 		{
@@ -104,16 +120,6 @@
 			],
 			"settings": {
 				"foreground": "#6dad6c"
-			}
-		},
-		{
-			"name": "Colors",
-			"scope": [
-				"constant.other.color",
-				"keyword.operator"
-			],
-			"settings": {
-				"foreground": "#e67777"
 			}
 		},
 		{
@@ -174,7 +180,6 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types",
 			],
 			"settings": {
 				"foreground": "#9fc270"
@@ -191,8 +196,7 @@
 				"support.type",
 				"support.class",
 				"entity.name.class",
-				"entity.other.inherited-class",
-				"storage.type"
+				"entity.other.inherited-class"
 			],
 			"settings": {
 				"foreground": "#38b577"
