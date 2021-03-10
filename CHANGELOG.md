@@ -1,3 +1,7 @@
+## [0.0.8.1]
+
+- Fix class colors.
+
 ## [0.0.8]
 
 - Update colors.

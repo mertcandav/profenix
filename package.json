@@ -1,9 +1,9 @@
 {
     "name": "profenix",
     "displayName": "profenix",
-    "description": "Dark theme for those who love darkness.",
+    "description": "Visual Studio Code dark theme for those who love darkness. Work with maximum focus!",
     "publisher": "mertcandav",
-    "version": "0.0.8",
+    "version": "0.0.8.1",
     "engines": {
         "vscode": "^1.49.0"
     },

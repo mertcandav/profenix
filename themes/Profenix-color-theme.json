@@ -95,7 +95,6 @@
 				"keyword",
 				"support.type.sys-types",
 				"constant.other.color",
-				"storage.type"
 			],
 			"settings": {
 				"foreground": "#df6176"
@@ -196,7 +195,8 @@
 				"support.type",
 				"support.class",
 				"entity.name.class",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"storage.type",
 			],
 			"settings": {
 				"foreground": "#38b577"
