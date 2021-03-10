@@ -11,4 +11,4 @@ Visual Studio Code dark theme for those who love darkness. Work with maximum foc
 + Modern
 
 ## Preview
-<img src="https://github.com/mertcandav/profenix/blob/master/preview.PNG?raw=true">
+<img src="https://github.com/mertcandav/profenix/blob/master/Preview.png">
